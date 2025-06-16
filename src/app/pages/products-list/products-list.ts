@@ -16,6 +16,14 @@ import { ProductsCard } from "./products-cart/products-card";
   styles: ``
 })
 export class ProductsList {
+
+  // async ngOnInit(){
+  //   const res = await fetch(
+  //     'https://fakestoreapi.com/products');
+  //   const data = await res.json();
+  //   this.products.set(data);
+  // }
+
   products = signal<Product[]>([
     {
       id: 1,
